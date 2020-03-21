@@ -1,0 +1,53 @@
+{
+  "description": "PS2 keyboard device.",
+  "nodes": [
+    {
+      "description": "A ps2-keyboard device.",
+      "id": "H1WQRynVI",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -14
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "SJv8UrxVU",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D3"
+      },
+      "description": "Arduino clock pin (PS2 pin 1). Must be connected to  an interrupt pin.\n\nValid irq pins:\n     Arduino Uno:  2, 3\n     Arduino Due:  All pins, except 13 (LED)\n     Arduino Mega: 2, 3, 18, 19, 20, 21\n     Teensy 2.0:   All pins, except 13 (LED)\n     Teensy 2.0:   5, 6, 7, 8\n     Teensy 1.0:   0, 1, 2, 3, 4, 6, 7, 16\n     Teensy++ 2.0: 0, 1, 2, 3, 18, 19, 36, 37\n     Teensy++ 1.0: 0, 1, 2, 3, 18, 19, 36, 37\n     Sanguino:     2, 10, 11",
+      "id": "SkuO_AiV8",
+      "label": "CLOCK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -16
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D4"
+      },
+      "description": "Arduino data pin (PS2 pin 5).",
+      "id": "r14YdAiEU",
+      "label": "DATA",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -16
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "links": [
+    {
+      "id": "BJUu7X6V8",
+      "input": {
+        "nodeId": "S1kuQXpNI",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "B1kwfQaV8",
+        "pinKey": "ryxThAoVI"
+      }
+    },
+    {
+      "id": "BJkYXmTVL",
+      "input": {
+        "nodeId": "SJjumQ6EL",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1kuQXpNI",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "Bkpmm7aVI",
+      "input": {
+        "nodeId": "HywmQQpEU",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bksfm7aVI",
+        "pinKey": "Hy-y0MmT4U"
+      }
+    },
+    {
+      "id": "By99c3QLU",
+      "input": {
+        "nodeId": "H1J5ch7UI",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "S16Ve_aV8",
+        "pinKey": "SkwBVl_bX"
+      }
+    },
+    {
+      "id": "ByLuMQpEI",
+      "input": {
+        "nodeId": "B1kwfQaV8",
+        "pinKey": "ryYw--2VI"
+      },
+      "output": {
+        "nodeId": "rJOSAyn4I",
+        "pinKey": "H1WQRynVI"
+      }
+    },
+    {
+      "id": "ByV8lOaVL",
+      "input": {
+        "nodeId": "BkyIed6NL",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S16Ve_aV8",
+        "pinKey": "S1s7pCDbQ"
+      }
+    },
+    {
+      "id": "Hy35qhQIU",
+      "input": {
+        "nodeId": "S16Ve_aV8",
+        "pinKey": "HyvKhAv-7"
+      },
+      "output": {
+        "nodeId": "H1J5ch7UI",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "HyPBl_6V8",
+      "input": {
+        "nodeId": "S16Ve_aV8",
+        "pinKey": "HJi_30PZX"
+      },
+      "output": {
+        "nodeId": "Bksfm7aVI",
+        "pinKey": "Hy-y0MmT4U"
+      }
+    },
+    {
+      "id": "Syjrg_TNI",
+      "input": {
+        "nodeId": "S16Ve_aV8",
+        "pinKey": "r1NYhRDZ7"
+      },
+      "output": {
+        "nodeId": "B1kwfQaV8",
+        "pinKey": "ryxThAoVI"
+      }
+    },
+    {
+      "id": "rk2MXmp48",
+      "input": {
+        "nodeId": "Bksfm7aVI",
+        "pinKey": "HyyxQmaE8"
+      },
+      "output": {
+        "nodeId": "B1kwfQaV8",
+        "pinKey": "ryY2p-2VI"
+      }
+    },
+    {
+      "id": "rksQXmpEI",
+      "input": {
+        "nodeId": "HykmQ7a4L",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bksfm7aVI",
+        "pinKey": "BJGyCG7aN8"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Hy5UfWh4I": "Continuously"
+      },
+      "id": "B1kwfQaV8",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 4
+      },
+      "type": "@/read-keyboard"
+    },
+    {
+      "id": "Bksfm7aVI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 5
+      },
+      "type": "@/code-to-i16"
+    },
+    {
+      "id": "BkyIed6NL",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 7
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 8
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1J5ch7UI",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 6
+      },
+      "type": "xod/core/defer"
+    },
+    {
+      "id": "HykmQ7a4L",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HywmQQpEU",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S16Ve_aV8",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 6
+      },
+      "type": "xod/stream/accumulate-string"
+    },
+    {
+      "id": "S1kuQXpNI",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 5
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "SJjumQ6EL",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJOSAyn4I",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "@/keyboard-device"
+    }
+  ]
+}

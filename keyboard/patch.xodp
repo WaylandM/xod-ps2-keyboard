@@ -1,0 +1,363 @@
+{
+  "comments": [
+    {
+      "content": "Split code on ranges and redirect as appropriate.\n\nControl keys\nFunction keys\nMultipedia keys\nNavigation keys\n",
+      "id": "S1lvKwpVL",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "size": {
+        "height": 3,
+        "units": "slots",
+        "width": 9
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "SJ3VGU6EI",
+      "input": {
+        "nodeId": "BJtNz8aVI",
+        "pinKey": "ryYw--2VI"
+      },
+      "output": {
+        "nodeId": "S1WZMLTE8",
+        "pinKey": "H1WQRynVI"
+      }
+    },
+    {
+      "id": "SkFcGLaE8",
+      "input": {
+        "nodeId": "S1WZMLTE8",
+        "pinKey": "r14YdAiEU"
+      },
+      "output": {
+        "nodeId": "ry-XG8T48",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkTFfL6EL",
+      "input": {
+        "nodeId": "r1KrfU6EI",
+        "pinKey": "SkJ46dw6-"
+      },
+      "output": {
+        "nodeId": "HJFFMIaEU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkDjfLa48",
+      "input": {
+        "nodeId": "S1WZMLTE8",
+        "pinKey": "SkuO_AiV8"
+      },
+      "output": {
+        "nodeId": "SkEGzIpNU",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryfLMLTVL",
+      "input": {
+        "nodeId": "BJtNz8aVI",
+        "pinKey": "Hy5UfWh4I"
+      },
+      "output": {
+        "nodeId": "r1KrfU6EI",
+        "pinKey": "BklspuwpW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJsiEpQ88",
+      "label": "PgDn",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "BJtNz8aVI",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/read-keyboard"
+    },
+    {
+      "id": "BkluBET7LU",
+      "label": "F9",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "BkuSVT78I",
+      "label": "F8",
+      "position": {
+        "units": "slots",
+        "x": 21,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByI_QRQI8",
+      "label": "Rtn",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByqHN6m88",
+      "label": "F12",
+      "position": {
+        "units": "slots",
+        "x": 25,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "H1UHN6mII",
+      "label": "F5",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "id": "HJFFMIaEU",
+      "label": "ACT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "HkxKBNam88",
+      "label": "F11",
+      "position": {
+        "units": "slots",
+        "x": 24,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Hy5o4TXI8",
+      "label": "PgUp",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HygPHVTQL8",
+      "label": "F7",
+      "position": {
+        "units": "slots",
+        "x": 20,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HyrNV6m88",
+      "label": "F1",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "S1WZMLTE8",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/keyboard-device"
+    },
+    {
+      "id": "S1fr46QUI",
+      "label": "F2",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "S1yoNpQU8",
+      "label": "Delete",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SJQQV6788",
+      "label": "ESC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SJYrNa7LI",
+      "label": "F10",
+      "position": {
+        "units": "slots",
+        "x": 23,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SJghjVpQUU",
+      "label": "BkSp",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SJniV6mIL",
+      "label": "Tab",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D3"
+      },
+      "id": "SkEGzIpNU",
+      "label": "CLOCK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "SkwBN6XIU",
+      "label": "F6",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Sy4BNT7UL",
+      "label": "F3",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "r1KrfU6EI",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/core/continuously-pausable"
+    },
+    {
+      "id": "rJqq467UL",
+      "label": "Insert",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rkdoE67IL",
+      "label": "End",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D4"
+      },
+      "id": "ry-XG8T48",
+      "label": "DATA",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "ryBBET7LI",
+      "label": "F4",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ryNsVT7II",
+      "label": "Home",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
