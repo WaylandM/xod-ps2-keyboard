@@ -1,6 +1,34 @@
 {
   "comments": [
     {
+      "content": "alphanumeric",
+      "id": "B1X6-bBIL",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "___\nFunction Keys",
+      "id": "H1rLsyE88",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 12
+      }
+    },
+    {
       "content": "Split code on ranges and redirect as appropriate.\n\nControl keys\nFunction keys\nMultipedia keys\nNavigation keys\n",
       "id": "S1lvKwpVL",
       "position": {
@@ -12,6 +40,20 @@
         "height": 3,
         "units": "slots",
         "width": 9
+      }
+    },
+    {
+      "content": "___\nNavigation Keys",
+      "id": "rJs47ZBIL",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 10
       }
     }
   ],
@@ -74,6 +116,16 @@
   ],
   "nodes": [
     {
+      "id": "B1evPm-SLL",
+      "label": "Down",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
       "id": "BJsiEpQ88",
       "label": "PgDn",
       "position": {
@@ -93,11 +145,21 @@
       "type": "@/read-keyboard"
     },
     {
+      "id": "BkZPPQZrIU",
+      "label": "Left",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
       "id": "BkluBET7LU",
       "label": "F9",
       "position": {
         "units": "slots",
-        "x": 22,
+        "x": 26,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -107,7 +169,7 @@
       "label": "F8",
       "position": {
         "units": "slots",
-        "x": 21,
+        "x": 25,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -127,7 +189,17 @@
       "label": "F12",
       "position": {
         "units": "slots",
-        "x": 25,
+        "x": 29,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByzPvQbH8U",
+      "label": "Right",
+      "position": {
+        "units": "slots",
+        "x": 16,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -137,7 +209,7 @@
       "label": "F5",
       "position": {
         "units": "slots",
-        "x": 18,
+        "x": 22,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -156,11 +228,21 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "id": "HkDPQWH8U",
+      "label": "Up",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
       "id": "HkxKBNam88",
       "label": "F11",
       "position": {
         "units": "slots",
-        "x": 24,
+        "x": 28,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -180,7 +262,7 @@
       "label": "F7",
       "position": {
         "units": "slots",
-        "x": 20,
+        "x": 24,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -190,7 +272,7 @@
       "label": "F1",
       "position": {
         "units": "slots",
-        "x": 14,
+        "x": 18,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -209,7 +291,7 @@
       "label": "F2",
       "position": {
         "units": "slots",
-        "x": 15,
+        "x": 19,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -229,7 +311,7 @@
       "label": "ESC",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -239,7 +321,7 @@
       "label": "F10",
       "position": {
         "units": "slots",
-        "x": 23,
+        "x": 27,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -282,7 +364,7 @@
       "label": "F6",
       "position": {
         "units": "slots",
-        "x": 19,
+        "x": 23,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -292,7 +374,7 @@
       "label": "F3",
       "position": {
         "units": "slots",
-        "x": 16,
+        "x": 20,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -344,7 +426,7 @@
       "label": "F4",
       "position": {
         "units": "slots",
-        "x": 17,
+        "x": 21,
         "y": 4
       },
       "type": "xod/patch-nodes/output-pulse"
